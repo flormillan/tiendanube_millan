@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* css pagina de inicio */
+
+header{
+    width: 100%;
+    height: 200px;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+header ul li a{
+    text-decoration: none;
+    border: solid;
+    border-color: #7D8471;
+    border-radius: 50px;
+    background-color: #7D8471;
+    color: white;
+    padding: 2px;
+}
+
+header ul li a:hover{
+    background-color: #B8B799;
+    border-color: #B8B799;
+}
+
+header ul li a:active{
+    padding: 2px;
+}
+.menu__secciones {
+    width: 70%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 35px;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.menu__imagen{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.menu__carrito{
+    margin-top: 40px;
+    margin-right: 60px;
+}
+a{
+    text-decoration: none;
+}
+body {
+    background: white;
+}
+
+.portada {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.portada__imagen{
+    width: 100%;
+    height: 800px;
+    margin-bottom: 15px;
+}
+.portada__imagen_boton{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border: solid;
+    font-size: 30px;
+    border-color: #7D8471;
+    border-radius: 50px;
+    background-color: #7D8471;
+    color: white;
+    padding: 20px;
+}
+.portada__imagen_boton a{
+ text-decoration: none;
+}
+
+.portada__productos__titulo{
+    font-size: 50px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+.portada__productos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.portada__productos__imagen{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+
+}
+.portada__productos__boton{
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    border: solid;
+    border-color: #7D8471;
+    border-radius: 50px;
+    background-color: #7D8471;
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.sec__promo{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 15px;
+}
+.promo{
+    display: flex;
+    flex-flow: column wrap;
+
+}
+.promo__imagen{
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+}
+.promo__titulo{
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+    width: 100%;
+}
+footer{
+    width: 100%;
+    height: 100px;
+}
+.footer__ubicacion {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.footer__ubicacion a{
+    text-decoration: none;
+    color: black;
+}
+.footer__redes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+}
+
+ /* css pagina de productos */
+
+.articulos__titulo {
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+ }
+.contenedor__productos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+ }
+ .productos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+ }
+ /* css pagina de talles */
+ .talle__titulo {
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+ }
+.talle{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 30px;
+}
+/* css pagina de contacto */
+
+.contacto__titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding: 30px;
+}
+.contacto__compra{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.contacto__mail{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.contacto__otras{
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+}
+.consultas__otras{
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+}
+.consulta__formulario{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.nombre{
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+}
+.apellido{
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+}
+.mail{
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+}
+.consulta{
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+}
+.boton__datos{
+    justify-content: center;
+    display: flex;
+    border: solid;
+    border-color: #7D8471;
+    border-radius: 50px;
+    background-color: #7D8471;
+    color: white;
+    padding: 20px;
+}
